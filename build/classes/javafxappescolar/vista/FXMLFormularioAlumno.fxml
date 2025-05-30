@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxappescolar.controlador.FXMLFormularioAlumnoController">
+   <children>
+      <ImageView fx:id="ivFoto" fitHeight="100.0" fitWidth="100.0" layoutX="275.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="btnSeleccionarFoto" layoutX="262.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnClicSeleccionarFoto" text="Seleccionar foto" />
+      <TextField fx:id="tfNombre" layoutX="47.0" layoutY="190.0" prefHeight="31.0" prefWidth="218.0" promptText="Nombre" />
+      <TextField fx:id="tfApePaterno" layoutX="47.0" layoutY="235.0" prefHeight="31.0" prefWidth="218.0" promptText="Apellido paterno" />
+      <TextField fx:id="tfApeMaterno" layoutX="47.0" layoutY="280.0" prefHeight="31.0" prefWidth="218.0" promptText="Apellido materno" />
+      <TextField fx:id="tfMatricula" layoutX="384.0" layoutY="190.0" prefHeight="31.0" prefWidth="218.0" promptText="Matrícula" />
+      <TextField fx:id="tfEmail" layoutX="47.0" layoutY="323.0" prefHeight="31.0" prefWidth="218.0" promptText="E-mail" />
+      <DatePicker fx:id="dpFechaNacimiento" layoutX="384.0" layoutY="235.0" promptText="Fecha de nacimiento" />
+      <ComboBox fx:id="cbFacultad" layoutX="384.0" layoutY="280.0" prefHeight="31.0" prefWidth="218.0" promptText="Facultad" />
+      <ComboBox fx:id="cbCarrera" layoutX="384.0" layoutY="323.0" prefHeight="31.0" prefWidth="218.0" promptText="Carrera" />
+      <Button layoutX="426.0" layoutY="436.0" mnemonicParsing="false" onAction="#btnClicGuardar" prefHeight="31.0" prefWidth="77.0" text="Guardar" />
+      <Button layoutX="519.0" layoutY="436.0" mnemonicParsing="false" onAction="#btnClicCancelar" text="Cancelar" />
+   </children>
+</AnchorPane>
